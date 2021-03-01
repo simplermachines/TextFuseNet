@@ -44,7 +44,7 @@ def get_parser():
 
     parser.add_argument(
         "--weights",
-        default="../out_dir_r101/ctw1500_model/model_ctw_r101.pth",
+        default="/content/fusenet_models/model_ctw_r101.pth",
         metavar="pth",
         help="the model used to inference",
     )
@@ -58,7 +58,7 @@ def get_parser():
 
     parser.add_argument(
         "--output",
-        default="./test_ctw1500/",
+        default="/content/test_ctw1500/",
         help="A file or directory to save output visualizations. "
         "If not given, will show output in an OpenCV window.",
     )
