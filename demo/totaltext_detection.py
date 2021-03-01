@@ -44,7 +44,7 @@ def get_parser():
 
     parser.add_argument(
         "--weights",
-        default="./out_dir_r101/totaltext_model/model_tt_r101.pth",
+        default="/content/fusenet_models/model_tt_r101.pth",
         metavar="pth",
         help="the model used to inference",
     )
@@ -58,7 +58,7 @@ def get_parser():
 
     parser.add_argument(
         "--output",
-        default="./test_totaltext/",
+        default="/content/test_totaltext/",
         help="A file or directory to save output visualizations. "
         "If not given, will show output in an OpenCV window.",
     )
